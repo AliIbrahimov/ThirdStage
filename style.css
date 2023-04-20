@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5% 15%;
+    background: rgba(94, 93, 88, 0.6);
+    position: absolute;
+    top: 0;
+    width: 100vw;
+}
+
+.navbar .navbar-images img {
+    height: 60px;
+}
+
+.navbar .navbar-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar .navbar-links ul li {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.navbar .navbar-links ul li:hover{
+    color: #00CBF6;
+}
+
+.navbar .navbar-links ul i {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.first {
+    background-image: url(./Assets/Images/Layer\ 1\ 5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.first .first-texts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.first .first-texts .first-h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.first .first-texts .first-h3 span {
+    color: #18CFAB;
+}
+
+.first .first-texts .first-h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.first .first-texts .first-h4 {
+    color: #D4D4D4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.first .first-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.first  .first-buttons .explore {
+    color: white;
+    background-color: #18CFAB;
+    border: none;
+    border-top: 2px solid white;
+    border-radius: 3px;
+    padding: 10px 17px;
+}
+
+.first .first-buttons .purchase{
+    background-color: #00CBF6;
+    color: white;
+    border: none;
+    border-top:2px solid white;
+    border-radius: 3px;
+    padding: 10px 17px;
+}
+
+.services {
+    padding: 10% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.services .services-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services .services-header .header-h3 {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.services .services-header .span-1 {
+    width: 78px;
+    height: 2px;
+    background-color: #18CFAB;
+    margin-top: 10px;
+}
+
+.services .services-header .span-2 {
+    width: 78px;
+    height: 2px;
+    background-color: #18CFAB;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.services .services-links {
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    background-color: #EDEFEF;
+    height: 100px;
+
+}
+
+.services .services-links div {
+    color: #717171;
+    font-size: 13px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.services .services-links div:hover {
+    border: 1px solid #18CFAB
+}
+
+.services-description {
+    padding: 2% 5%;
+}
+
+.services-description .desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+
+.services-description p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.645px;
+    line-height: 24px;
+    color: #777777;
+    display: flex;
+}
+
+.desc img {
+    width: 150px;
+    
+}
+
+.desc {
+    display: none !important;
+}
+
+.active {
+    display: flex !important;
+}
+
+.active-links{
+    background-color: #18CFAB;
+    color: white !important;
+}
